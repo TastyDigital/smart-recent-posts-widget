@@ -132,9 +132,20 @@ function srpw_get_recent_posts( $args = array() ) {
 
 							// Display default image.
 							elseif ( ! empty( $args['thumbnail_default'] ) ) :
+								
+								$catthumb = $args['thumbnail_default'];
+								// Here we are adding support for category images
+								if ( !file_exists($_SERVER['DOCUMENT_ROOT'].$catthumb) && (strpos($catthumb, '_catslug_') !== false) ){
+									$catslug = get_the_category(get_the_ID());
+									if ( ! empty( $catslug ) ) {
+									    $catthumb = str_replace('_catslug_', $catslug[0]->slug, $catthumb);
+									}
+									
+								}
+
 								$html .= sprintf( '<a class="srpw-img ' . esc_attr( $args['thumbnail_align'] ) . '" href="%1$s" target="' . $target . '" rel="bookmark"><img class="srpw-thumbnail srpw-default-thumbnail" src="%2$s" alt="%3$s"></a>',
 									esc_url( get_permalink() ),
-									esc_url( $args['thumbnail_default'] ),
+									esc_url( $catthumb ),
 									esc_attr( get_the_title() )
 								);
 

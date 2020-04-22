@@ -310,11 +310,11 @@ msgid "Custom CSS"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Smart Recent Posts Widget"
+msgid "Tasty Digital’s Smart Recent Posts Widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/idenovasi/smart-recent-posts-widget"
+msgid "https://github.com/TastyDigital/smart-recent-posts-widget"
 msgstr ""
 
 #. Description of the plugin/theme

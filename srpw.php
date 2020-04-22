@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name:  Smart Recent Posts Widget
- * Plugin URI:   https://github.com/idenovasi/smart-recent-posts-widget
+ * Plugin Name:  Tasty Digital’s fork of Smart Recent Posts Widget
+ * Plugin URI:   https://github.com/TastyDigital/smart-recent-posts-widget
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts.
  * Version:      0.0.6
  * Author:       Idenovasi
  * Author URI:   https://idenovasi.com/
  * Author Email: satrya@idenovasi.com
- * Text Domain:  smart-recent-posts-widget
+ * Text Domain:  tastydigital/smart-recent-posts-widget
  * Domain Path:  /languages
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU

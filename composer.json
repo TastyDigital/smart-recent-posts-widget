@@ -1,0 +1,18 @@
+{
+    "name": "tastydigital/smart-recent-posts-widget",
+    "description": "Tasty Digital Smart Recent Posts Plugin for WP Packagist. Fork from idenovasi/smart-recent-posts-widget, but with support for generic category images",
+    "keywords": ["wordpress", "plugin", "widget", "Recent Posts"],
+    "homepage": "https://github.com/TastyDigital/smart-recent-posts-widget",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "TastyDigital",
+			"email": "support@tastydigital.com"
+		}
+	],
+	"minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    }
+}

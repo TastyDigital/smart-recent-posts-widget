@@ -192,14 +192,16 @@ function srpw_get_recent_posts( $args = array() ) {
 
 							$html .= "</div>";
 
-							if ( $args['excerpt'] ) :
-								$html .= '<div class="srpw-summary">';
-									$html .= '<p>' . wp_trim_words( apply_filters( 'srpw_excerpt', get_the_excerpt() ), $args['length'] ) . '</p>';
-									if ( $args['readmore'] ) :
-										$html .= '<a href="' . esc_url( get_permalink() ) . '" class="srpw-more-link" target="' . $target . '">' . $args['readmore_text'] . '</a>';
-									endif;
-								$html .= '</div>';
-							endif;
+							if ($args['excerpt'] || $args['readmore']) :
+                		        $html .= '<div class="srpw-summary">';
+                	            if ($args['excerpt']) :
+                	                $html .= '<p>' . wp_trim_words(apply_filters('srpw_excerpt', get_the_excerpt()), $args['length']) . '</p>';
+                	            endif;
+                		        if ($args['readmore']) :
+                			        $html .= '<a href="' . esc_url(get_permalink()) . '" class="srpw-more-link" target="' . $target . '">' . $args['readmore_text'] . '</a>';
+                		        endif;
+                		        $html .= '</div>';
+                	        endif;
 
 						$html .= '</div>';
 

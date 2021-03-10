@@ -3,10 +3,10 @@
  * Plugin Name:  Tasty Digital’s fork of Smart Recent Posts Widget
  * Plugin URI:   https://github.com/TastyDigital/smart-recent-posts-widget
  * Description:  Enables advanced widget that gives you total control over the output of your site’s most recent Posts. Set to version 10 so updates do not overwrite customisations.
- * Version:      10.0.0
- * Author:       Idenovasi
- * Author URI:   https://idenovasi.com/
- * Author Email: satrya@idenovasi.com
+ * Version:      1.0.0
+ * Author:       TastyDigital
+ * Author URI:   https://tastydigital.com/
+ * Author Email: developer@tastydigital.com
  * Text Domain:  tastydigital/smart-recent-posts-widget
  * Domain Path:  /languages
  *

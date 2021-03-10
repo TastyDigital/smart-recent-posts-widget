@@ -1,5 +1,5 @@
 === Smart Recent Posts Widget ===
-Contributors: idenovasi, satrya
+Contributors: idenovasi, satrya, TastyDigital
 Tags: recent posts, random posts, popular posts, thumbnails, widget, widgets, sidebar, excerpt, category, post tag, taxonomy, post type, post status, multiple widgets, recent posts widget
 Requires at least: 5.0
 Tested up to: 5.6
@@ -40,7 +40,7 @@ Using the widget is super easy with clear inline information. It provides a lot 
 * Custom CSS
 * Multiple widgets
 
-* Contribute on [Github](https://github.com/idenovasi/smart-recent-posts-widget).
+* Contribute on [Github](https://github.com/tastydigital/smart-recent-posts-widget).
 
 == Installation ==
 

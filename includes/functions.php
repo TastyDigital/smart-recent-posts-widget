@@ -233,7 +233,7 @@ function srpw_get_recent_posts($args = array()) {
     do_action('srpw_after_loop');
 
     // Return the  posts markup.
-    return esc_html($args['before']) . apply_filters('srpw_markup', $html) . esc_html($args['after']);
+    return esc_html($args['before']) . apply_filters('srpw_markup', $html) . $args['after'];
 }
 
 /**
